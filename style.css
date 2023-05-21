@@ -452,7 +452,7 @@ textarea {
 
     .service {
         width: 40vh;
-        height: 110vh;
+        height: 90vh;
     }
 
     ul {
@@ -476,8 +476,8 @@ textarea {
         gap: 1.5em;
         text-align: center;
         width: 30vh;
-        margin-left: 7em;
-        margin-right: 7em;
+        margin-left: 6em;
+        margin-right: 6em;
     }
 
     .footerAddress{
