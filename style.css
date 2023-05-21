@@ -1,0 +1,510 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/poppins/Poppins-Medium.otf);
+}
+
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+}
+
+body {
+    background: black;
+}
+
+nav {
+    display: flex;
+    font-size: larger;
+    gap: 6em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b744f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.header-logo img {
+    width: 20vh;
+    margin-top: .5em;
+}
+
+h1 {
+    font-size: x-large;
+    padding-left: .5em;
+}
+
+.header-phone {
+    font-size: large;
+}
+
+.heroSectionMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5em;
+    margin-top: 2em;
+}
+
+.heroSectionLeftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 88vh;
+    margin-top: 2em;
+}
+
+.heroSection-text h2 {
+    font-size: 7.6vh;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+button {
+    background: #b744f5;
+    border-color: #b744f5;
+    border-radius: 10px;
+    padding: .4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: large;
+    margin-top: 1.5em;
+    margin-left: 35vh;
+}
+
+button:hover {
+    background: white;
+}
+
+.heroSection-images img {
+    width: 65vh;
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 2em;
+    color: #b744f5;
+}
+
+#about{
+    margin-top: 10em;
+    margin-bottom: 7em;
+    margin-left: 20em;
+    margin-right: 20em;
+    line-height: 2em;
+}
+
+.container-allServices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.arrowUp img {
+    position: fixed;
+    top: 38em;
+    right: 2em;
+    width: 4em;
+}
+
+.service {
+    width: 45vh;
+    height: 95vh;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-shadow: 1px 1px 10px #b744f5;
+}
+
+.service img {
+    width: 25vh;
+    margin-left: 2.5em;
+    margin-top: 2em;
+}
+
+.service h3 {
+    text-align: center;
+    color: #b744f5;
+    margin-bottom: 1em;
+}
+
+.service:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.whyChooseUs {
+    margin-top: 8em;
+}
+
+ul {
+    list-style: "➤";
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+li {
+    padding-left: .7em;
+    padding-bottom: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    box-shadow: 0 -5px 5px -5px grey;
+    padding-top: 2em;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+    width: 150vh;
+}
+
+.footerAddress{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    font-size: small;
+    width: 30vh;
+}
+
+.contact h2 {
+    margin-top: 3em;
+}
+
+.contact h3 {
+    margin-bottom: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    color: black;
+}
+
+option {
+    color: black;
+}
+
+select {
+    width: 39vh;
+}
+
+label, select, textarea, input {
+    font-size: larger;
+}
+
+textarea {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 40vh;
+    color: black;
+}
+
+.answer p {
+    margin-bottom: 1em;
+}
+
+.answer {
+    display: flex;
+    gap: 5em;
+}
+
+.formButton {
+    background: #b744f5;
+    border-color: #b744f5;
+    border-radius: 10px;
+    padding: .4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: large;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background: white;
+    color: #b744f5;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    nav {
+        font-size: large;
+        gap: 3em;
+    }
+
+    button {
+
+        margin-left: 25vh;
+    }
+
+    #about{
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .container-allServices{
+        flex-wrap: wrap;
+    }
+
+    .service {
+        width: 52vh;
+    }
+
+    ul {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+}
+
+/* TABLETTES */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    nav {
+        font-size: medium;
+        gap: 2.5em;
+    }
+
+    header {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .header-phone {
+        font-size: medium;
+    }
+
+    .header-logo img {
+        width: 15vh;
+    }
+    
+    h1 {
+        font-size:  larger;
+        padding-left: 0em;
+    }
+
+    button {
+
+        margin-left: 25vh;
+    }
+
+    .heroSectionMainContainer{
+        flex-direction: column-reverse;
+        margin-left: 0em;
+    }
+
+    .heroSection-images img {
+        width: 55vh;
+    }
+    
+    .heroSection-text h2 {
+        text-align: center;
+    }
+    
+    .heroSection-text p{
+        margin: 3vh;
+    }
+
+    button {
+        margin-left: 35vh;
+    }
+
+
+
+    #about{
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+
+    
+    .container-allServices{
+        flex-wrap: wrap;
+    }
+
+    .service {
+        width: 50vh;
+    }
+
+    ul {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 7em;
+    }
+
+    .footerLinks{
+        padding-left: 6em;
+    }
+
+    .footerAddress{
+        margin-right: 2em;
+        text-align: center;
+        margin-left: 12.5em;
+        margin-top: 4em;
+    }
+    
+    iframe{
+        margin-top: 1.5em;
+        margin-left: 8.5em;
+    }
+
+    .arrowUp img {
+        top: 35em;
+    }
+
+}
+
+/* MOBILES */
+
+@media screen and (max-width: 767px) {
+    
+    header{
+        flex-direction: column;
+        margin-left: 1em;
+        margin-right: 0em;
+    }
+
+    nav {
+        font-size: medium;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+    
+    .header-logo img {
+        width: 15vh;
+        margin-top: 1em;
+    }
+    
+    h1 {
+        font-size: larger;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+    
+    .heroSectionMainContainer{
+        flex-direction: column-reverse;
+        margin-left: 0em;
+    }
+
+    .heroSectionLeftContainer{
+        width: 45vh;
+    }
+
+    .heroSection-images img {
+        width: 40vh;
+    }
+    
+    .heroSection-text h2 {
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    .heroSection-text p{
+        margin: 3vh;
+    }
+
+    button {
+        margin-left: 15vh;
+    }
+
+    #about{
+        margin-left: 1.7em;
+        margin-right: 1.7em;
+    }
+
+    
+    .container-allServices{
+        flex-direction: column;
+    }
+
+    .service {
+        width: 40vh;
+        height: 87vh;
+    }
+
+    ul {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    h2 {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    footer {
+        flex-direction: column;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .footerLinks{
+        flex-direction: column;
+        gap: 1.5em;
+        text-align: center;
+        width: 30vh;
+        margin-left: 3.1em;
+    }
+
+    .footerAddress{
+        text-align: center;
+        margin-top: 2.5em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    
+    iframe{
+        margin-top: 1.5em;
+        margin-left: 3em;
+    }
+
+    .arrowUp img {
+        top: 45em;
+        left: 19em;
+    }
+
+    select {
+        width: 35vh;
+    }
+
+    input, textarea {
+        width: 35vh;
+    }
+
+    .answer input{
+        width: 5vh;
+    }
+}
