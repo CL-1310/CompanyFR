@@ -452,7 +452,7 @@ textarea {
 
     .service {
         width: 40vh;
-        height: 87vh;
+        height: 110vh;
     }
 
     ul {
@@ -476,19 +476,21 @@ textarea {
         gap: 1.5em;
         text-align: center;
         width: 30vh;
-        margin-left: 3.1em;
+        margin-left: 7em;
+        margin-right: 7em;
     }
 
     .footerAddress{
         text-align: center;
         margin-top: 2.5em;
-        margin-left: 4em;
-        margin-right: 4em;
+        margin-left: 8em;
+        margin-right: 8em;
     }
     
     iframe{
         margin-top: 1.5em;
-        margin-left: 3em;
+        margin-left: 5em;
+        margin-right: 5em;
     }
 
     .arrowUp img {
